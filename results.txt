@@ -1,0 +1,22 @@
+Starting Bug Report Classification Evaluation Loop...
+
+--- Running Experiment on caffe.csv ---
+
+--- Running Experiment on incubator-mxnet.csv ---
+
+--- Running Experiment on keras.csv ---
+
+--- Running Experiment on pytorch.csv ---
+
+--- Running Experiment on tensorflow.csv ---
+
+
+============= FINAL EXPERIMENT RESULTS =============
+        Dataset  Baseline_Precision  Baseline_Recall  Baseline_F1  Advanced_Precision  Advanced_Recall  Advanced_F1  P_Value_F1  Significant
+          caffe                 0.0         0.000000     0.000000            0.522593         0.220267     0.282493    0.000006         True
+incubator-mxnet                 0.0         0.000000     0.000000            0.578542         0.411657     0.470537    0.000002         True
+          keras                 0.0         0.000000     0.000000            0.668213         0.534404     0.588552    0.000002         True
+        pytorch                 0.0         0.000000     0.000000            0.598155         0.425959     0.491615    0.000002         True
+     tensorflow                 0.5         0.007535     0.014821            0.718119         0.659343     0.686065    0.000002         True
+
+Results successfully saved to evaluation_results.csv
